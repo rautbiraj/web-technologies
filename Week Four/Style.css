@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@300&display=swap');
+h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid chocolate;
+    background-color: teal;
+    color: lavender;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: oblique;
+    border: 2px dashed lemonchiffon;
+    background-color: blue;
+    color: pink;
+}
+
+p {
+    background-color: bisque;
+    border: 2px solid powderblue;
+    padding: 30px;
+    font-size: 30px;
+    color: cadetblue;
+}
+
+body {
+    background-image: url('galaxy.jpg');
+    background-size: 100% 100%;
+}
