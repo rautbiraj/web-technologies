@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: aliceblue;
+  background-color: rgb(109, 151, 115);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-column,
+.right-column {
+  padding: 5%;
+  width: 50%;
+}
+h1 {
+  font-size: 70px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded", plain;
+}
+p {
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+.image {
+  display: flex;
+}
+figure img {
+  margin-left: 150px;
+  width: 80%;
+  height: 40%;
+}
